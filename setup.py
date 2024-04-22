@@ -11,7 +11,7 @@ setup(
     keywords=['pip', 'pytorch', 'generative', 'ldm', 'vqgan'],
     zip_safe=False,
     install_requires=[
-        'torch~=1.6',
+        'torch~=2.0',
         'torchvision',
         'numpy==1.*',
         'pytorch_wavelets @ git+https://github.com/fbcotter/pytorch_wavelets',
